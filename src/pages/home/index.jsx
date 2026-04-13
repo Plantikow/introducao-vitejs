@@ -11,10 +11,12 @@ function Home() {
 
                 <Link to="/exemplo/1">Exemplo 1 - componente basico</Link>
                 <Link to="/exemplo/2">Exemplo 2 - Uso de estilização com module</Link>
-                <Link to="/atividade/1">primeira atividade de estilização</Link>
+                <Link to="/exemplo/3">Exemplo 3 - contador de click</Link>
             </div>
             <div className={styles.containerItens}>
                 <h2>Atividades</h2>
+
+                <Link to="/atividade/1">primeira atividade de estilização</Link>
             </div>
         </div>
     )
