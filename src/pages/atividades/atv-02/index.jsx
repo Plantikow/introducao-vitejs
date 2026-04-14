@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import styles from './index.module.css';
 
-export default function Exemplo03() {  
+export default function Atividade02() {  
 
     const [num, setNum] = useState(100);
 
@@ -10,8 +10,17 @@ export default function Exemplo03() {
         setNum(num + 1);
     }
     
+    function handleDescrementa () {
+        setNum(num - 1);
+    }
+
     return (
         <div className={styles.container}>
+             <label 
+                onClick={() => handleDescrementa()}
+                className={styles.botao}
+            >-1</label>
+
             <label className={styles.texto}>{`Contador: ${num}`}</label>     
 
             <label 

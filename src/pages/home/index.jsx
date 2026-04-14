@@ -17,6 +17,7 @@ function Home() {
                 <h2>Atividades</h2>
 
                 <Link to="/atividade/1">primeira atividade de estilização</Link>
+                <Link to="/atividade/2">contador com + e -</Link>
             </div>
         </div>
     )
