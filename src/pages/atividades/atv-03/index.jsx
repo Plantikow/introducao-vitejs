@@ -9,7 +9,7 @@ export default function Atividade03() {
 
           <h2>Atividade 3</h2>
 
-          <p>Ação</p>
+          <p>Ação seleciona</p>
         </div>
     );
 }
